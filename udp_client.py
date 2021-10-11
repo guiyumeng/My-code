@@ -1,7 +1,7 @@
 #coding:utf-8
 import socket
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-s.connect(('127.0.0.1',9999))
+s.connect(('10.128.68.158',9999))
 print('I am connecting the server!')
 for xx in['aBch','f 服务 d','h7Tq','.']:
     s.send(xx.encode('utf-8'))
